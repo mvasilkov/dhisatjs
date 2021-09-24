@@ -1,0 +1,20 @@
+{
+  "name": "dhisa",
+  "version": "0.0.1",
+  "description": "Dhisat JS is a JavaScript compression kit.",
+  "main": "app.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvasilkov/dhisatjs.git"
+  },
+  "keywords": [
+    "minify"
+  ],
+  "author": "Mark Vasilkov (https://github.com/mvasilkov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvasilkov/dhisatjs/issues"
+  },
+  "homepage": "https://github.com/mvasilkov/dhisatjs#readme"
+}
