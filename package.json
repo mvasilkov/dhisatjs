@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mvasilkov/dhisatjs#readme",
   "dependencies": {
+    "execa": "^5.1.1",
     "google-closure-compiler": "^20210907.0.0",
     "roadroller": "^2.1.0",
     "rollup": "^2.57.0",
