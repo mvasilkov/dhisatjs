@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm install -g dhisa
+npm install --global dhisa
 ```
 
 ## License

@@ -9,6 +9,7 @@
     "url": "git+https://github.com/mvasilkov/dhisatjs.git"
   },
   "keywords": [
+    "minifier",
     "minify"
   ],
   "author": "Mark Vasilkov (https://github.com/mvasilkov)",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/mvasilkov/dhisatjs/issues"
   },
-  "homepage": "https://github.com/mvasilkov/dhisatjs#readme"
+  "homepage": "https://github.com/mvasilkov/dhisatjs#readme",
+  "dependencies": {
+    "google-closure-compiler": "^20210907.0.0",
+    "roadroller": "^2.1.0",
+    "rollup": "^2.57.0",
+    "terser": "^5.9.0"
+  }
 }
