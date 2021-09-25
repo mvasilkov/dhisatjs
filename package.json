@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Dhisat JS is a JavaScript compression kit.",
   "main": "app.js",
+  "files": [
+    "app.js",
+    "utils"
+  ],
   "scripts": {},
   "repository": {
     "type": "git",
@@ -19,6 +23,7 @@
   },
   "homepage": "https://github.com/mvasilkov/dhisatjs#readme",
   "dependencies": {
+    "commander": "^8.2.0",
     "execa": "^5.1.1",
     "google-closure-compiler": "^20210907.0.0",
     "roadroller": "^2.1.0",

@@ -1,15 +1,21 @@
 'use strict'
 
+const { getOptions } = require('./utils/cli')
 const { initialize, checkOutput } = require('./utils/subprocess')
+const pkg = require('./package.json')
 
 async function run() {
+    const options = getOptions()
+
     await initialize()
 
-    await version()
+    if (options.allVersions) {
+        await version()
+        return
+    }
 }
 
 async function version() {
-    const pkg = require('./package.json')
     console.log(`Dhisat JS ${pkg.version}`)
 
     for (let app of [
