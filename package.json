@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Dhisat JS is a JavaScript compression kit.",
   "main": "app.js",
+  "bin": {
+    "dhisa": "app.js"
+  },
   "files": [
     "app.js",
     "utils"
