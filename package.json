@@ -1,19 +1,19 @@
 {
-  "name": "dhisa",
+  "name": "uwa",
   "version": "0.0.1",
-  "description": "Dhisat JS is a JavaScript compression kit.",
+  "description": "uwa is a JavaScript compression kit.",
   "main": "app.js",
   "bin": {
-    "dhisa": "app.js"
+    "uwa": "app.js"
   },
   "files": [
     "app.js",
-    "utils"
+    "uwa"
   ],
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mvasilkov/dhisatjs.git"
+    "url": "git+https://github.com/mvasilkov/uwa.git"
   },
   "keywords": [
     "minifier",
@@ -22,9 +22,9 @@
   "author": "Mark Vasilkov (https://github.com/mvasilkov)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mvasilkov/dhisatjs/issues"
+    "url": "https://github.com/mvasilkov/uwa/issues"
   },
-  "homepage": "https://github.com/mvasilkov/dhisatjs#readme",
+  "homepage": "https://github.com/mvasilkov/uwa#readme",
   "dependencies": {
     "commander": "^8.2.0",
     "execa": "^5.1.1",

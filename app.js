@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict'
 
-const { getOptions } = require('./utils/cli')
-const { initialize, checkOutput } = require('./utils/subprocess')
+const { getOptions } = require('./uwa/cli')
+const { initialize, checkOutput } = require('./uwa/subprocess')
 const pkg = require('./package.json')
 
 async function run() {
@@ -17,7 +17,7 @@ async function run() {
 }
 
 async function version() {
-    console.log(`Dhisat JS ${pkg.version}`)
+    console.log(`uwa ${pkg.version}`)
 
     for (let app of [
         'google-closure-compiler',

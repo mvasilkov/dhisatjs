@@ -1,11 +1,18 @@
-# Dhisat JS
+# uwa
 
-**Dhisat JS** is a JavaScript compression kit.
+**uwa** is a JavaScript compression kit.
+
+The packages included in this installation are:
+
+- google-closure-compiler
+- roadroller
+- rollup
+- terser
 
 ## Installation
 
 ```sh
-npm install --global dhisa
+npm install --global uwa
 ```
 
 ## License

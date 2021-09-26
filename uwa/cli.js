@@ -7,7 +7,7 @@ const pkg = require('../package.json')
 function getOptions() {
     const program = new Command()
 
-    program.version(pkg.version)
+    program.version(`uwa ${pkg.version}`)
 
     program.option('--all-versions', 'show versions of principal dependencies')
 
